@@ -1,0 +1,8 @@
+[package]
+name = "rsu-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# No dependencies on purpose: the core is pure game rules.
+[dependencies]

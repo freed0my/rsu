@@ -1,0 +1,14 @@
+[package]
+name = "rsu-tools"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "rsu-sim"
+path = "src/main.rs"
+
+[dependencies]
+rsu-core.workspace = true
+rsu-formats.workspace = true
+rsu-audio.workspace = true

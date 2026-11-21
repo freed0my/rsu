@@ -1,0 +1,11 @@
+[package]
+name = "rsu-gfx"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ash = "0.38"
+
+[build-dependencies]
+naga = { version = "27", features = ["wgsl-in", "spv-out"] }

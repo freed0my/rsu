@@ -1,0 +1,27 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+
+[workspace.dependencies]
+rsu-core = { path = "crates/rsu-core" }
+rsu-formats = { path = "crates/rsu-formats" }
+rsu-rt = { path = "crates/rsu-rt" }
+rsu-telemetry = { path = "crates/rsu-telemetry" }
+rsu-audio = { path = "crates/rsu-audio" }
+rsu-platform = { path = "crates/rsu-platform" }
+rsu-gfx = { path = "crates/rsu-gfx" }
+libc = "0.2"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = 1
+
+[profile.dev]
+opt-level = 1

@@ -1,0 +1,18 @@
+[package]
+name = "rsu"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rsu-rt.workspace = true
+rsu-telemetry.workspace = true
+rsu-audio.workspace = true
+rsu-platform.workspace = true
+rsu-gfx.workspace = true
+rsu-core.workspace = true
+rsu-formats.workspace = true
+libc.workspace = true
+fontdue = "0.9"
+png = "0.17"
+zune-jpeg = "0.5"

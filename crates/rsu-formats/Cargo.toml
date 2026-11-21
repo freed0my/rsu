@@ -1,0 +1,11 @@
+[package]
+name = "rsu-formats"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rsu-core.workspace = true
+# Pure-Rust math: trigonometry that gives the same bits on every machine,
+# which the system libm does not promise.
+libm = "0.2"

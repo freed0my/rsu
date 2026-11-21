@@ -1,0 +1,15 @@
+[package]
+name = "rsu-platform"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rsu-rt.workspace = true
+libc.workspace = true
+wayland-client = { version = "0.31", features = ["system"] }
+wayland-backend = { version = "0.3", features = ["client_system"] }
+wayland-protocols = { version = "0.32", features = ["client", "staging", "unstable"] }
+x11rb = { version = "0.13", features = ["allow-unsafe-code"] }
+# v0_3_49 exposes pw_buffer.requested, needed to write exactly one cycle of audio.
+pipewire = { version = "0.9", features = ["v0_3_49"] }
