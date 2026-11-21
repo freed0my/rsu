@@ -1,8 +1,10 @@
 # rsu!
 
-rsu! is an osu!standard client for Linux, written in Rust.
+rsu! is an custom client for Linux, written in Rust.
+It focuses on low latency and uses a custom renderer. Maybe will support windows later idk
 
 It's still early in development. Expect bugs, missing features, and things that don't quite work as they should.
+Already supports watching replays from stable and parsing your maps from it.
 
 ## Build and run
 
