@@ -18,7 +18,7 @@ You'll also need a Vulkan 1.3 compatible GPU driver. Run `target/release/rsu --h
 
 ## Credits
 
-- McOsu — inspiration for the UI/UX.
+- McOsu — inspiration for the UI/UX and some mods features
 - Rewind — inspiration for the replay parser implementation.
 
 ## License
