@@ -16,6 +16,11 @@ On Arch Linux:
 
 You'll also need a Vulkan 1.3 compatible GPU driver. Run `target/release/rsu --help` for more options.
 
+## Credits
+
+- McOsu — inspiration for the UI/UX.
+- Rewind — inspiration for the replay parser implementation.
+
 ## License
 
 GPL-3.0-only. See [LICENSE](LICENSE).
